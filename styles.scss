@@ -30,7 +30,7 @@ html {
 
 body {
     margin: 0;
-    font-family: 'Karla', sans-serif;
+    font-family: "Karla", sans-serif;
     background: $lightGray;
 }
 
@@ -54,8 +54,7 @@ main {
     background: white;
     grid-template-areas:
         "intro intro"
-        "price whyUs"
-    ;
+        "price whyUs";
     grid-template-columns: 1fr 1fr;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -119,7 +118,7 @@ main section:nth-child(3) {
     border-bottom-right-radius: inherit;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 676px) {
     main {
         position: static;
         margin: 1em auto;
@@ -128,8 +127,7 @@ main section:nth-child(3) {
         grid-template-areas:
             "intro"
             "price"
-            "whyUs"
-        ;
+            "whyUs";
         grid-template-columns: 1fr;
         section {
             padding: 1rem 1.25rem;
@@ -152,9 +150,8 @@ main section:nth-child(3) {
     main section:nth-child(2) {
         border-bottom-left-radius: initial;
     }
-    
+
     main section:nth-child(3) {
         border-bottom-left-radius: inherit;
     }
 }
-
