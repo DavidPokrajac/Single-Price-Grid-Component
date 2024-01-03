@@ -107,7 +107,7 @@ main section:nth-child(3) {
   border-bottom-right-radius: inherit;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 676px) {
   main {
     position: static;
     margin: 1em auto;
